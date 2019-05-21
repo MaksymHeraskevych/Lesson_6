@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lessons6</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="tabs">
+
+		<div class="tabs__btns">
+			<button class="tabs__btn active" data-tab="1">One Tab</button>
+			<button class="tabs__btn" data-tab="2">Two Tab</button>
+			<button class="tabs__btn" data-tab="3">Three Tab</button>
+		</div>
+
+		<p class="tabs__content active" data-tab="1"><span>ONE Tab Text!</span> <br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem recusandae voluptate sit minima eos incidunt nobis. Soluta nam et nihil possimus corporis veniam, debitis eveniet, dolorem qui temporibus adipisci iste.</p>
+		
+		<p class="tabs__content" data-tab="2"><span>TWO Tab Text!</span> <br>
+		  Consectetur adipisicing elit. Autem recusandae voluptate sit minima eos incidunt nobis. Soluta nam et nihil possimus corporis veniam, debitis eveniet, dolorem qui temporibus adipisci iste.</p>
+		
+		<p class="tabs__content" data-tab="3"><span>THREE Tab Text!</span> <br>
+		Autem recusandae voluptate sit minima eos incidunt nobis. Soluta nam et nihil possimus corporis veniam, debitis eveniet, dolorem qui temporibus adipisci iste.</p>
+	</div>
+
+<!-- ACCORDEON -->
+
+	<div class="accordion">
+
+
+		<button class="accordion__btn" >One Accordion</button>
+		<p class="accordion__content" ><span>ONE Accordion Text!</span> <br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem recusandae voluptate sit minima eos incidunt nobis. Soluta nam et nihil possimus corporis veniam, debitis eveniet, dolorem qui temporibus adipisci iste.</p>
+			
+		<button class="accordion__btn" >Two Accordion</button>
+		<p class="accordion__content" ><span>TWO Accordion Text!</span> <br>
+			Consectetur adipisicing elit. Autem recusandae voluptate sit minima eos incidunt nobis. Soluta nam et nihil possimus corporis veniam, debitis eveniet, dolorem qui temporibus adipisci iste.</p>
+
+		<button class="accordion__btn" >Three Accordion</button>
+		<p class="accordion__content" ><span>THREE Accordion Text!</span> <br>
+			Autem recusandae voluptate sit minima eos incidunt nobis. Soluta nam et nihil possimus corporis veniam, debitis eveniet, dolorem qui temporibus adipisci iste.</p>
+
+	</div>
+
+	<!-- 1) в приложение с Pizza интегрировать jQuery;
+	2) СОЗДАТЬ табы на jQuery
+	3*) СОЗДАТЬ аккордеон на jQuery;
+// GULPLESSON
+	4)  Минифицровать CSS с Gulp (используейте gulp-csso плагин)
+	5)  Написать таск по запуску локального сервера (используйте плагин gulp-connect)
+	ВАЖНО: запускать watcher и сервер одной командой в одной консоли (exports.default = parallel(html, css, js);)
+ДОКИ: gulpjs.com -->
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
